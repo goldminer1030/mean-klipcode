@@ -1,0 +1,25 @@
+{
+  "name": "mean-klipcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldminer1030/mean-klipcode.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "GoldMiner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldminer1030/mean-klipcode/issues"
+  },
+  "homepage": "https://github.com/goldminer1030/mean-klipcode#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
