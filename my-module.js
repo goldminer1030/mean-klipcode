@@ -4,7 +4,7 @@ var myModule = {
   name: "Gold",
   age: "29",
   aboutMe: function(){
-    Console.log("Hi, my name is " + this.name + " and I'm " + this.age + " years old.");
+    console.log("Hi, my name is " + this.name + " and I'm " + this.age + " years old.");
   }
 };
 
