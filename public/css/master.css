@@ -3,3 +3,16 @@
 h1 {
  color: tomato
 }
+.stranger {
+ color: orange
+}
+.name {
+ color: cornflowerblue
+}
+.contact h2 {
+ color: tomato;
+}
+.contact .contact-form label{
+ display: inline-block;
+ width: 50px;
+}
