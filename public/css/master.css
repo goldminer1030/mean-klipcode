@@ -1,18 +1,17 @@
 /* public/css/master.css */
 
-h1 {
- color: tomato
+.contact .contact-form,
+.contact-index ul{
+ max-width: 500px;
 }
-.stranger {
- color: orange
-}
-.name {
- color: cornflowerblue
-}
-.contact h2 {
+.contact h2{
  color: tomato;
 }
-.contact .contact-form label{
+.contact .contact-form label,
+.contact-show label{
  display: inline-block;
  width: 50px;
+}
+.contact .contact-menu form{
+ display: inline-block;
 }

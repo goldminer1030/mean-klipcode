@@ -1,0 +1,34 @@
+<!-- views/contacts/edit.ejs -->
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <% include ../partials/head %>
+ </head>
+ <body>
+  <% include ../partials/nav %>
+
+  <div class="container contact contact-edit">
+   <div class="contact-menu">
+    <a class="btn btn-default" href="/contacts/<%= contact._id %>">Back</a>
+   </div>
+   <h2>Edit</h2>
+   <form class="contact-form" action="/contacts/<%= contact._id %>?_method=put" method="post">    <div class="form-group">
+     <label for="name">Name</label>
+     <input class="form-control" type="text" id="name" name="name" value="<%= contact.name %>">
+    </div>
+    <div class="form-group">
+     <label for="email">Email</label>
+     <input class="form-control" type="text" id="email" name="email" value="<%= contact.email %>">
+    </div>
+    <div class="form-group">
+     <label for="phone">Phone</label>
+     <input class="form-control" type="text" id="phone" name="phone" value="<%= contact.phone %>">
+    </div>
+    <div>
+     <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+   </div>
+  </form>
+ </body>
+</html>
